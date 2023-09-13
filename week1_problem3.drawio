@@ -1,9 +1,141 @@
-<mxfile host="app.diagrams.net" modified="2023-09-13T14:53:14.476Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.7.4" etag="XF7_2otCM3OqfRScES_2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-13T15:07:25.332Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Avbvko3nSwuKK3nKSyng" version="21.7.4" type="github">
   <diagram name="Page-1" id="iWVtjKmYf5bgeIo6mMUV">
-    <mxGraphModel>
+    <mxGraphModel dx="1444" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontColor=#4D4D4D;" edge="1" parent="1" source="6ILbxB4MDC0khEj_y2dl-1" target="6ILbxB4MDC0khEj_y2dl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-1" value="Mulai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;strokeColor=#666666;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="125" y="60" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontColor=#4D4D4D;" edge="1" parent="1" source="6ILbxB4MDC0khEj_y2dl-4" target="6ILbxB4MDC0khEj_y2dl-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-4" value="Memasukkan &lt;br&gt;nilai temperatur &lt;br&gt;pada &lt;br&gt;h = 100 mdpl &lt;br&gt;dan h = 1000 mdpl" style="shape=parallelogram;strokeWidth=2;perimeter=parallelogramPerimeter;rounded=1;arcSize=12;size=0.23;align=center;whiteSpace=wrap;html=1;strokeColor=#666666;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="70" y="142.5" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontColor=#4D4D4D;" edge="1" parent="1" source="6ILbxB4MDC0khEj_y2dl-9" target="6ILbxB4MDC0khEj_y2dl-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-9" value="Menghitung selisih ketinggian (dz)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;arcSize=12;strokeColor=#666666;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="105" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontColor=#4D4D4D;" edge="1" parent="1" source="6ILbxB4MDC0khEj_y2dl-11" target="6ILbxB4MDC0khEj_y2dl-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-11" value="Menghitung selisih temperatur (dT)" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=12;strokeColor=#666666;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="105" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontColor=#4D4D4D;" edge="1" parent="1" target="6ILbxB4MDC0khEj_y2dl-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="397.5" y="90" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontColor=#4D4D4D;" edge="1" parent="1" source="6ILbxB4MDC0khEj_y2dl-13" target="6ILbxB4MDC0khEj_y2dl-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-13" value="mencari gradien dT/dz" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=12;strokeColor=#666666;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="105" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontColor=#4D4D4D;" edge="1" parent="1" source="6ILbxB4MDC0khEj_y2dl-15" target="6ILbxB4MDC0khEj_y2dl-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-15" value="Menentukan gradien potensial temperatur dengan menambah dT/dz dengan dry" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=12;strokeColor=#666666;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="325" y="134.5" width="145" height="95.5" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontColor=#4D4D4D;" edge="1" parent="1" source="6ILbxB4MDC0khEj_y2dl-19" target="6ILbxB4MDC0khEj_y2dl-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-19" value="&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Diperoleh gradien potensial temperatur&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeWidth=2;arcSize=12;strokeColor=#666666;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="323.75" y="260" width="147.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontColor=#4D4D4D;" edge="1" parent="1" source="6ILbxB4MDC0khEj_y2dl-21" target="6ILbxB4MDC0khEj_y2dl-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-21" value="Menentukan kondisi atmosfer dari gradien protensial temperatur&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=12;strokeColor=#666666;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="320" y="370" width="155" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-23" value="A" style="ellipse;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=12;fontSize=15;strokeColor=#666666;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="142.5" y="590" width="45" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-25" value="A" style="ellipse;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=12;fontSize=15;strokeColor=#666666;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="375" y="50" width="45" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontColor=#4D4D4D;" edge="1" parent="1" source="6ILbxB4MDC0khEj_y2dl-26" target="6ILbxB4MDC0khEj_y2dl-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontColor=#4D4D4D;" edge="1" parent="1" source="6ILbxB4MDC0khEj_y2dl-26" target="6ILbxB4MDC0khEj_y2dl-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-26" value="Apakah gradien &amp;lt; 0?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=12;strokeColor=#666666;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="323.75" y="480" width="147.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontColor=#4D4D4D;" edge="1" parent="1" source="6ILbxB4MDC0khEj_y2dl-28" target="6ILbxB4MDC0khEj_y2dl-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontColor=#4D4D4D;" edge="1" parent="1" source="6ILbxB4MDC0khEj_y2dl-28" target="6ILbxB4MDC0khEj_y2dl-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-28" value="Apakah gradien = 0?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=12;strokeColor=#666666;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="323.75" y="600" width="147.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontColor=#4D4D4D;" edge="1" parent="1" source="6ILbxB4MDC0khEj_y2dl-30" target="6ILbxB4MDC0khEj_y2dl-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-30" value="Apakah gradien &amp;gt; 0?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=12;strokeColor=#666666;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="323.75" y="720" width="147.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#666666;fontColor=#4D4D4D;" edge="1" parent="1" source="6ILbxB4MDC0khEj_y2dl-32" target="6ILbxB4MDC0khEj_y2dl-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="525" />
+              <mxPoint x="660" y="645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-32" value="Kondisi &lt;br&gt;atmosfer tidak stabil" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeWidth=2;arcSize=12;strokeColor=#666666;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="510" y="492.5" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#666666;fontColor=#4D4D4D;" edge="1" parent="1" source="6ILbxB4MDC0khEj_y2dl-34" target="6ILbxB4MDC0khEj_y2dl-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="765" />
+              <mxPoint x="660" y="645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-34" value="Kondisi &lt;br&gt;atmosfer stabil" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeWidth=2;arcSize=12;strokeColor=#666666;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="510" y="732.5" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#666666;fontColor=#4D4D4D;" edge="1" parent="1" source="6ILbxB4MDC0khEj_y2dl-35" target="6ILbxB4MDC0khEj_y2dl-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-35" value="Kondisi &lt;br&gt;atmosfer netral" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeWidth=2;arcSize=12;strokeColor=#666666;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="510" y="612.5" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-38" value="Mulai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;strokeColor=#666666;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="690" y="625" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-42" value="YA" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="320" y="291.25" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-44" value="YA" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="460" y="498.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-45" value="YA" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="462" y="618.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-46" value="YA" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="461" y="740" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-47" value="TIDAK" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="346" y="570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6ILbxB4MDC0khEj_y2dl-48" value="TIDAK" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="345" y="688" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
