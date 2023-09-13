@@ -1,11 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2023-09-13T00:30:13.362Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="QcQUEjR4i1qH5m0nJXVQ" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-13T00:34:37.925Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="j9VBMrA4Z7YW3aRrvPeX" version="21.7.2" type="github">
   <diagram name="Page-1" id="axTvwTyRnC_YbbEKpN97">
-    <mxGraphModel dx="1034" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="392" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="TUb2oA2NIEB4g1PAvU3Q-5" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="314" y="20" width="100" height="50" as="geometry" />
+        <mxCell id="TUb2oA2NIEB4g1PAvU3Q-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TUb2oA2NIEB4g1PAvU3Q-5" target="TUb2oA2NIEB4g1PAvU3Q-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="364" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TUb2oA2NIEB4g1PAvU3Q-5" value="Mulai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="314" y="30" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TUb2oA2NIEB4g1PAvU3Q-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TUb2oA2NIEB4g1PAvU3Q-10" target="TUb2oA2NIEB4g1PAvU3Q-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TUb2oA2NIEB4g1PAvU3Q-10" value="Memasukkan &lt;br&gt;satuan temperatur" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="283.5" y="120" width="161" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TUb2oA2NIEB4g1PAvU3Q-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TUb2oA2NIEB4g1PAvU3Q-11" target="TUb2oA2NIEB4g1PAvU3Q-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TUb2oA2NIEB4g1PAvU3Q-11" value="Memasukkan besar temperatur yang ingin dikonversi" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;rounded=1;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="281" y="220" width="166" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TUb2oA2NIEB4g1PAvU3Q-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TUb2oA2NIEB4g1PAvU3Q-13" target="TUb2oA2NIEB4g1PAvU3Q-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TUb2oA2NIEB4g1PAvU3Q-13" value="Memasukkan satuan temperatur tujuan" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;rounded=1;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="304" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TUb2oA2NIEB4g1PAvU3Q-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TUb2oA2NIEB4g1PAvU3Q-15" target="TUb2oA2NIEB4g1PAvU3Q-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TUb2oA2NIEB4g1PAvU3Q-15" value="Konversi satuan dengan perbandingan temperatur atau persamaan garis lurus melalui dua titik" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="272" y="420" width="184" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TUb2oA2NIEB4g1PAvU3Q-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TUb2oA2NIEB4g1PAvU3Q-19" target="TUb2oA2NIEB4g1PAvU3Q-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TUb2oA2NIEB4g1PAvU3Q-19" value="Hasil : &lt;br&gt;temperatur dengan satuan baru" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;rounded=1;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="299" y="560" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TUb2oA2NIEB4g1PAvU3Q-21" value="Selesai" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="321" y="670" width="86" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
