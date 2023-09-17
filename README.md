@@ -15,6 +15,7 @@ untuk belajar dan tugas praktikum matrek
 **Referensi:**
 1. [Quick References](https://matlabacademy.mathworks.com/artifacts/quick-reference.html?course=mlbe&language=en&release=R2023a)
 2. [MATLAB Fundamentals](https://matlabacademy.mathworks.com/R2023a/portal.html?course=mlbe#chapter=2&lesson=3&section=1)
+3. [Modul Praktikum Matlab FTMD](https://drive.google.com/file/d/10JNcnq57Zb8H33Mbrw-2kc5EG79fDAle/view)
 
 **Anggota Kelompok:**
 1. Siti Ramadina (15322001)
