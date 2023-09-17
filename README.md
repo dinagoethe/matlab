@@ -10,7 +10,7 @@ untuk belajar dan tugas praktikum matrek
 ### Solusi
 1. [Solusi Praktikum 0: Logic and Algorithm](https://drive.google.com/drive/u/0/folders/1BbInhc7wi2c7CGrjFVtieJa4p5fQVWnv)
 2. [Solusi Praktikum 1: Matlab Review](https://github.com/dinagoethe/matlab/blob/main/M01/M01.md)
-3. [Solusi Praktikum 2: Iteration Procedure & Taylor Series]()
+3. [Solusi Praktikum 2: Iteration Procedure & Taylor Series](https://github.com/dinagoethe/matlab/blob/main/M02/M02.md)
 
 Referensi:
 1. [Quick References](https://matlabacademy.mathworks.com/artifacts/quick-reference.html?course=mlbe&language=en&release=R2023a)
