@@ -12,6 +12,12 @@ untuk belajar dan tugas praktikum matrek
 2. [Solusi Praktikum 1: Matlab Review](https://github.com/dinagoethe/matlab/blob/main/M01/M01.md)
 3. [Solusi Praktikum 2: Iteration Procedure & Taylor Series](https://github.com/dinagoethe/matlab/blob/main/M02/M02.md)
 
-Referensi:
+**Referensi:**
 1. [Quick References](https://matlabacademy.mathworks.com/artifacts/quick-reference.html?course=mlbe&language=en&release=R2023a)
 2. [MATLAB Fundamentals](https://matlabacademy.mathworks.com/R2023a/portal.html?course=mlbe#chapter=2&lesson=3&section=1)
+
+**Anggota Kelompok:**
+1. Siti Ramadina (15322001)
+2. Rayyan Maulana Suheimy (15322004)
+3. Zefanya Maruli (15322022)
+4. Johan Simbolon (15322058)
